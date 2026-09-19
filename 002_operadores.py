@@ -19,7 +19,7 @@ print(my_aprox_div)
 print(my_resto)
 
 
-### Operadores de comparación
+### Operadores de comparación ==> True o False
 my_mayor = (a > b)
 mayor_o_igual  = (a >= b)
 my_menor  = (a > b)
@@ -27,12 +27,4 @@ menor_o_igual  = (a >= b)
 my_igual = (a == 5) # OJO con un solo símbolo = estaríamos asignando valor no comparando
 my_diferent = (a != b) #  "!" significa not, se puede usar en cualquier otro comparador ej !< no menos, !true no verdadero...
 
-### Operadores lógicos
-
-
-
-
-
-
-
-
+### Operadores lógicos ==> and &&, or || y not !, in, not in:
