@@ -28,3 +28,9 @@ my_igual = (a == 5) # OJO con un solo símbolo = estaríamos asignando valor no 
 my_diferent = (a != b) #  "!" significa not, se puede usar en cualquier otro comparador ej !< no menos, !true no verdadero...
 
 ### Operadores lógicos ==> and &&, or || y not !, in, not in:
+print(3 > 4 and "Hola" > "Python")
+print(3 > 4 or "Hola" > "Python")
+print(3 < 4 and "Hola" < "Python")
+print(3 < 4 or "Hola" > "Python")
+print(3 < 4 or ("Hola" > "Python" and 4 == 4))
+print(not (3 > 4))
